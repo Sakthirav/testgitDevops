@@ -9,7 +9,6 @@ git status
 git branch
 git branch sak
 git checkout sak
-git remote remove origin master
 git push origin sak
 git checkout master
 git merge sak
