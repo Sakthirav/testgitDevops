@@ -1,0 +1,15 @@
+git init
+git config --global user.name Sakthirav
+git config --global user.email sakthiravi1605@gmail.com
+git config -l
+git remote add origin https://github.com/Sakthirav/testgitDevops.git
+git remote -v
+git add .
+git status
+git branch
+git branch sak
+git checkout sak
+git remote remove origin master
+git push origin sak
+git checkout master
+git merge sak
